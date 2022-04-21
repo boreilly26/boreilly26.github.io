@@ -1,3 +1,28 @@
+@import url(ttps://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
+
+html,
+body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    color: #999
+}
+
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nopadding [class^="col-"]{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main-container{
+    padding: 100px 0;
+}
+
+
 .topnav a {
     color: black;
     margin-right: 100px;
